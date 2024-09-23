@@ -3,24 +3,57 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width", initial-scale="1">
-        <title>index</title>
-        
-      
-        <!--INTERNAL CSS go here-->
-        
-</head>
+        <title>Blog</title>
 
+        <!--INTERNAL CSS go here-->
+        <link href="style.css" type="text/css" rel="stylesheet">
+
+        <!--JavaScript goes here-->
+        <script src="script.js"></script>
+</head>
 <body>
-    <script type="text/javascript" src="temperature.js"> </script>
-    <script type="text/javascript" src="dogAge.js"> </script>
-    <script type="text/javascript" src="magicBall.js"> </script>
-    <script type="text/javascript" src="raceDay.js"> </script>
-    <script type="text/javascript" src="paperScissors.js"> </script>
-    <script type="text/javascript" src="7. Coded Message/codedMessage.js"> </script>
-    <script type="text/javascript" src="8. Whale Talk/whaleTalk.js"> </script>
-    <script type="text/javascript" src="forEachLoop.js"> </script>
-    <script type="text/javascript" src="9. Choose the Correct Iterator/correctIterator.js"> </script>
-    <script type="text/javascript" src="10. Grammar Checker/grammarChecker.js"> </script>
-   
+    <div class="header">
+        <h1>Welcome to Mictlan </h1>
+    </div>
+        <nav class="navbar">
+            <ol class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">Xolo</a></li>
+                <li><a href="#l">Tepetl</a></li>
+            </ol>
+        </nav>
+    
+    <!-- 1 A dark/light mode toogle-->
+     <div class="body">
+
+        <p class="mictlan_description"><strong>Mictlan</strong>, formed from the Nahuatl terms “micqui” (death) and “tlan” (place), translates to “place of the dead” in Aztec mythology. 
+        It is the underground regions where the dead must go to free their teyolia (soul, one of the three components forming a person according to the Nahuas people) 
+        and vital energy, tonalli. It is also known as Chicunauhmictlan or Ximoayan (“place of the disembodied”). Only those who die of natural causes are allowed to 
+        reach this realm, which is commonly referred to as the underworld by anthropologists and is called “tlalmiqui” (from Nahuatl “tlalli” meaning earth and “micqui” meaning to die).
+        </p>
+
+        <img src="./misc/images/Xolo.jpg" class="xolo">
+
+        <form onsubmit="return analyseForm()">
+            <label for="title">Title</label><br>
+            <input type="text" id="title" value=" "><br>
+            <label for="author">Author</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="entry">Write the content</label><br>
+            <textarea name="content" rows="15" col="30"></textarea><br><br>
+            <input type="submit" id="submitbutton" value="Submit">
+        </form>
+
+    </div>
+    <div class="footer">
+        <li><a href="mailto:8jsri1ja@duck.com?subject=How%20are%20you&cc=gaasol.13@gmail.com&&body=Hello">Contact ME</a></li>
+    </div>
+    <!--3 Form with three fields-->
+
+
+    
+
+
+
 </body>
 </html>

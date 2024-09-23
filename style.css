@@ -1,0 +1,73 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    background: black;
+    margin: 0px;
+    width: 100%;
+    border: 50px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.navbar{
+    background: white;
+    position: sticky;
+    color: azure;
+    
+}
+.navbar a:hover{/* hiver wne the cursor pass over the link*/
+    background-color: gray;
+}
+
+li{ /*Display the links in line*/
+    display: inline-block;
+}
+
+a{
+    text-decoration: none; /*Remove the underline off the hyperlink*/
+    color: black;
+    display: block;
+    padding: 14px 20px;;
+
+}
+
+p.mictlan_description{
+    padding: 35px;
+}
+
+
+img.xolo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 25px;        
+}
+
+
+input[type=text] { /* Given a format with a border box to the form*/
+    width: 50%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 50%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    text-align: center;
+    
+}
